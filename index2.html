@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer página web responsive</title>
+</head>
+<body>
+
+<style>
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1,5;
+}
+header, nav, main, footer{
+    padding: 15px;
+}
+header{
+    background-color: black;
+    color: white;
+}
+nav{
+    background-color: #eee;
+    text-align: center;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+/*contenedor principal*/
+.contenedor{
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+}
+.col{
+    background-color: #f6f6f6;
+    padding: 15px;
+    flex: 1;
+    box-shadow: 0px 4px 10px black;
+}
+
+@media(max-width: 700px){
+    .contenedor{
+        flex-direction: column;}
+}
+nav a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: rgb(30, 158, 167);
+}
+.col img{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+
+
+
+</style>
+
+
+<header>
+    <h1>Mi web responsive (Tatiana Paniagua)</h1>
+    <p>Ejemplo simple para endender responsive.</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contactos</a>
+</nav>
+
+<main>
+    <div class="contenedor">
+    <section class="col">
+        <h2>sección 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla praesentium odio ratione voluptas pariatur laudantium dignissimos facere itaque corrupti eaque accusantium esse dolor, ipsa quidem tempora nobis sint eligendi? Similique.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repellat quae beatae eveniet enim atque officia id provident nulla voluptatum, amet ea. Ea vel eaque quia soluta labore. Incidunt, harum?</p>
+        <img src="https://www.pngall.com/wp-content/uploads/13/Cinnamoroll-PNG-Pic.png" alt="">
+    </section>
+
+    <section class="col">
+        <h2>sección 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nulla dolor, ratione id mollitia delectus illo earum quasi commodi! Sequi quaerat laborum labore odit, odio dolorum. Harum illo possimus commodi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, magni blanditiis qui atque doloribus numquam illo? Blanditiis officiis ea velit rem, sunt laborum ex praesentium reprehenderit porro, quo, hic fuga?</p>
+        <img src="https://tse3.mm.bing.net/th/id/OIP.E5DXITBUm_Dh2LHlHKCUTAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+    </section>
+
+    <section class="col">
+        <h2>sección 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nulla dolor, ratione id mollitia delectus illo earum quasi commodi! Sequi quaerat laborum labore odit, odio dolorum. Harum illo possimus commodi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, magni blanditiis qui atque doloribus numquam illo? Blanditiis officiis ea velit rem, sunt laborum ex praesentium reprehenderit porro, quo, hic fuga?</p>
+    </section>
+
+    <section class="col">
+        <h2>sección 4</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nulla dolor, ratione id mollitia delectus illo earum quasi commodi! Sequi quaerat laborum labore odit, odio dolorum. Harum illo possimus commodi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, magni blanditiis qui atque doloribus numquam illo? Blanditiis officiis ea velit rem, sunt laborum ex praesentium reprehenderit porro, quo, hic fuga?</p>
+    </section>
+
+    <section class="col">
+        <h2>sección 5</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nulla dolor, ratione id mollitia delectus illo earum quasi commodi! Sequi quaerat laborum labore odit, odio dolorum. Harum illo possimus commodi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, magni blanditiis qui atque doloribus numquam illo? Blanditiis officiis ea velit rem, sunt laborum ex praesentium reprehenderit porro, quo, hic fuga?</p>
+    </section>
+
+    <section class="col">
+        <h2>sección 6</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nulla dolor, ratione id mollitia delectus illo earum quasi commodi! Sequi quaerat laborum labore odit, odio dolorum. Harum illo possimus commodi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, magni blanditiis qui atque doloribus numquam illo? Blanditiis officiis ea velit rem, sunt laborum ex praesentium reprehenderit porro, quo, hic fuga?</p>
+    </section>
+
+    <section class="col">
+        <h2>sección 7</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nulla dolor, ratione id mollitia delectus illo earum quasi commodi! Sequi quaerat laborum labore odit, odio dolorum. Harum illo possimus commodi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, magni blanditiis qui atque doloribus numquam illo? Blanditiis officiis ea velit rem, sunt laborum ex praesentium reprehenderit porro, quo, hic fuga?</p>
+    </section>
+
+    <section class="col">
+        <h2>sección 8</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nulla dolor, ratione id mollitia delectus illo earum quasi commodi! Sequi quaerat laborum labore odit, odio dolorum. Harum illo possimus commodi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, magni blanditiis qui atque doloribus numquam illo? Blanditiis officiis ea velit rem, sunt laborum ex praesentium reprehenderit porro, quo, hic fuga?</p>
+    </section>
+
+    <section class="col">
+        <h2>sección 9</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nulla dolor, ratione id mollitia delectus illo earum quasi commodi! Sequi quaerat laborum labore odit, odio dolorum. Harum illo possimus commodi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, magni blanditiis qui atque doloribus numquam illo? Blanditiis officiis ea velit rem, sunt laborum ex praesentium reprehenderit porro, quo, hic fuga?</p>
+    </section>
+
+    <section class="col">
+        <h2>sección 10</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nulla dolor, ratione id mollitia delectus illo earum quasi commodi! Sequi quaerat laborum labore odit, odio dolorum. Harum illo possimus commodi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, magni blanditiis qui atque doloribus numquam illo? Blanditiis officiis ea velit rem, sunt laborum ex praesentium reprehenderit porro, quo, hic fuga?</p>
+    </section>
+
+    <section class="col">
+        <h2>sección 11</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nulla dolor, ratione id mollitia delectus illo earum quasi commodi! Sequi quaerat laborum labore odit, odio dolorum. Harum illo possimus commodi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, magni blanditiis qui atque doloribus numquam illo? Blanditiis officiis ea velit rem, sunt laborum ex praesentium reprehenderit porro, quo, hic fuga?</p>
+    </section>
+
+    <section class="col">
+        <h2>sección 12</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nulla dolor, ratione id mollitia delectus illo earum quasi commodi! Sequi quaerat laborum labore odit, odio dolorum. Harum illo possimus commodi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, magni blanditiis qui atque doloribus numquam illo? Blanditiis officiis ea velit rem, sunt laborum ex praesentium reprehenderit porro, quo, hic fuga?</p>
+    </section>
+
+    </div>
+</main>
+
+<footer>
+    <p>2026 - Ejemplo sencillo</p>
+</footer>
+
+</body>
+</html>

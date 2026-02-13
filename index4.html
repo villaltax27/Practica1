@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI tercera página web responsive</title>
+</head>
+<body>
+    
+    <style>
+
+    body{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1,5;
+    }
+
+    header, nav, main, footer{
+        padding: 15px;
+    }
+    header{
+        background: #1f2937;
+        color: white;
+    }
+    nav{
+        background: #f3f4f6;
+    }
+    footer{
+        background: #1f2937;
+        color: white;
+        text-align: center;
+    }
+    .wrap{
+        max-width: 900px;
+        margin: auto;
+        
+    }
+    main div{
+        display: flex;
+    }
+    nav a{
+        display: inline-block;
+        margin: 5px 10px 5px 0;
+        padding: 8px 10px;
+        background: white;
+        border: 1px solid #ddd;
+        text-decoration: none;
+        color: #111;
+    }
+    .caja{
+        background: #fafafa;
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin: 15px 0;
+    }
+    .caja img{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.wrap img{
+     display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+    </style>
+
+    <header>
+        <div class="wrap">
+            <h1>Mi web responsive (Tatiana Paniagua)</h1>
+            <p>Esto funciona bien en móvil sin casi usar media queries</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="wrap">
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Galería</a>
+            <a href="#">Contacto</a>
+             <img src="https://gallerypng.com/wp-content/uploads/2024/10/Cute-Badtz-Maru-Png-Image.png" alt="">
+        </div>
+    </nav>
+
+    <main>
+        <div class="wrap">
+            <section class="caja">
+                <h2>Sección A</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam odio, deleniti asperiores consequatur explicabo repellat consectetur rerum sint unde eaque. Perspiciatis ad sapiente, cumque cum nostrum voluptas placeat odio accusamus!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex mollitia veniam nulla laborum repellat ratione, minima reiciendis tempora non deleniti doloribus aperiam error natus. Explicabo dolorem quos a sed provident.</p>
+                 <img src="https://www.pngall.com/wp-content/uploads/13/Cinnamoroll-PNG-Pic.png" alt="">
+            </section>
+
+            <section class="caja">
+                <h2>Sección B</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam odio, deleniti asperiores consequatur explicabo repellat consectetur rerum sint unde eaque. Perspiciatis ad sapiente, cumque cum nostrum voluptas placeat odio accusamus!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex mollitia veniam nulla laborum repellat ratione, minima reiciendis tempora non deleniti doloribus aperiam error natus. Explicabo dolorem quos a sed provident.</p>
+                 <img src="https://gallerypng.com/wp-content/uploads/2024/10/Cute-Badtz-Maru-Png-Image.png" alt="">
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <p>2026 - Ejemplo básico responsive</p>
+        </div>
+    </footer>
+
+</body>
+</html>
